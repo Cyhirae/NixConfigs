@@ -3,6 +3,7 @@
 {
 	imports = [
 		./nvim.nix
+		./mpv.nix
 	];
 
 	home.username = "cyhirae";
