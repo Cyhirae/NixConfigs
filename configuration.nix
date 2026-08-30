@@ -102,8 +102,7 @@
 		wget
 		mangohud
 		lutris
-		ananicy-cpp
-		ananicy-rules-cachyos_git
+		pkgs.easyeffects
 	];
 
 	system.stateVersion = "26.05";
