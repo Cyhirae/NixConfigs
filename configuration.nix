@@ -6,6 +6,7 @@
 		./hardware-configuration.nix
 		./nvidia.nix
 		./protons.nix
+		./obs.nix
 	];
 
 	nix.settings."experimental-features" = [
