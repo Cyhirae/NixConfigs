@@ -31,10 +31,13 @@ Personal NixOS configuration built around flakes, Home Manager, Hyprland, and Li
 
 Review the configuration carefully before applying it. In particular, check usernames, hostnames, hardware-specific settings, disks, graphics configuration, and any imported modules.
 
-The flake currently defines the `nixos-celt` NixOS configuration. A typical rebuild command is:
+The flake currently defines the `nixos-celt` NixOS configuration. A typical rebuild and install command is:
 
 ```sh
 sudo nixos-rebuild switch --flake .#nixos-celt
+```
+```sh
+nixos-install switch --flake .#nixos-celt
 ```
 
 Do not run the command blindly on another system; adapt the configuration first.
