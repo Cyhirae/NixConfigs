@@ -101,6 +101,7 @@
 		bottles
 		heroic
 		vesktop
+		davinci-resolve
 
 		(writeShellScriptBin "yazi-edit" ''
 			file="$1"
