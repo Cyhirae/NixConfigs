@@ -71,7 +71,10 @@
 	};
 
 	programs.gamemode.enable = true;
-	hardware.graphics.enable = true;
+	hardware.graphics = {
+		enable = true;
+		enable32Bit = true;
+	};
 
 	security.polkit.enable = true;
 	security.rtkit.enable = true;
