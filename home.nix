@@ -102,6 +102,7 @@
 		heroic
 		vesktop
 		davinci-resolve
+		ffmpeg
 
 		(writeShellScriptBin "yazi-edit" ''
 			file="$1"
