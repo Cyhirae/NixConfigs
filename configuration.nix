@@ -40,6 +40,11 @@
 		keyMap = "fi";
 	};
 
+	networking.firewall = {
+		allowedTCPPorts = [ 49164 ];
+		allowedUDPPorts = [ 49164 ];
+	};
+
 	users.users.cyhirae = {
 		isNormalUser = true;
 		shell = pkgs.zsh;
