@@ -4,6 +4,7 @@
 	imports = [
 		./nvim.nix
 		./mpv.nix
+		./rtorrent.nix
 	];
 
 	home.username = "cyhirae";
