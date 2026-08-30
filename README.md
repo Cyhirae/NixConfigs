@@ -37,7 +37,7 @@ The flake currently defines the `nixos-celt` NixOS configuration. A typical rebu
 sudo nixos-rebuild switch --flake .#nixos-celt
 ```
 ```sh
-nixos-install switch --flake .#nixos-celt
+nixos-install --flake .#nixos-celt
 ```
 
 Do not run the command blindly on another system; adapt the configuration first.
