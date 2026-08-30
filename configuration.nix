@@ -102,7 +102,7 @@
 		wget
 		mangohud
 		lutris
-		pkgs.easyeffects
+		easyeffects
 	];
 
 	system.stateVersion = "26.05";
