@@ -16,10 +16,15 @@
 			inputs.nixpkgs.follows = "nixpkgs";
 		};
 
+		brave-previews = {
+			url = "github:drishal/brave-browser-flake";
+			inputs.nixpkgs.follows = "nixpkgs";
+		};
+
 		millennium.url = "github:SteamClientHomebrew/Millennium?dir=packages/nix";
 	};
 
-	outputs = { nixpkgs, home-manager, noctalia, millennium, chaotic, ... }:
+	outputs = { nixpkgs, home-manager, noctalia, millennium, chaotic, brave-previews, ... }:
 		{
 			nixosConfigurations.nixos-celt = nixpkgs.lib.nixosSystem {
 				system = "x86_64-linux";
@@ -29,6 +34,7 @@
 					{
 						nixpkgs.overlays = [
 							millennium.overlays.default
+							brave-previews.overlays.default
 						];
 						
 					}
