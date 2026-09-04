@@ -83,7 +83,7 @@
 	programs.kitty.enable = true;
 
 	home.packages = with pkgs; [
-		vivaldi
+		brave-origin-nightly
 		vscodium
 		pwvucontrol
 		fastfetch
@@ -165,7 +165,7 @@
 				"$mod, SPACE, exec, noctalia msg panel-toggle launcher"
 				"$mod, H, exec, noctalia msg panel-toggle session"
 				"$mod, T, exec, uwsm app -- kitty"
-				"$mod, W, exec, uwsm app -- vivaldi"
+				"$mod, W, exec, uwsm app -- brave-origin-nightly"
 				"$mod, C, exec, uwsm app -- codium"
 				"$mod, E, exec, uwsm app -- kitty -e yazi"
 				"CTRL ALT, V, exec, uwsm app -- pwvucontrol"
